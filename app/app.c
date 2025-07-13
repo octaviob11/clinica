@@ -16,19 +16,20 @@ int main( int argc, char** argv){
 	//printf("Modo de usar: app.exe \"NOME\" \"TELEFONE\" \"CPF\" \"dia\" \"mes\" \"ano\" \n");
 	if(argc>1){
 		if(!strcmp(argv[1],"-h")) {
-		printf("Modo de usar: app.exe \"NOME\" \"TELEFONE\" \"CPF\" \"dia\" \"mes\" \"ano\" \n");
+		printf("Modo de usar: ./application \"NOME DO ARQUIVO\" \"NOME\" \"TELEFONE\" \"CPF\" \"dia\" \"mes\" \"ano\" \n");
+		return 0;
 		}
 	}
-
-	char * nome = argv[1];
-	char * telefone = argv[2];
-	char * cpf = argv[3];
-	long int dia = strtol(argv[4], NULL, 10);
-	long int mes = strtol(argv[5], NULL, 10);
-	long int ano = strtol(argv[6], NULL, 10);
-	printf("Nome = %s, telefone = %s, cpf = %s, nascimento %d/%d/%d\n", nome, telefone, cpf, dia, mes, ano);
+	char * nome_arquivo = argv[1];
+	char * nome = argv[2];
+	char * telefone = argv[3];
+	char * cpf = argv[4];
+	long int dia = strtol(argv[5], NULL, 10);
+	long int mes = strtol(argv[6], NULL, 10);
+	long int ano = strtol(argv[7], NULL, 10);
+	printf("Nome = %s, telefone = %s, cpf = %s, nascimento %ld/%ld/%ld\n", nome, telefone, cpf, dia, mes, ano);
 	//printf("Sizeof atring =%d", strlen(nome));
-	cadastrar_via_argumentos("paciente.bin", nome, telefone, cpf, dia, mes, ano);
+	cadastrar_via_argumentos(nome_arquivo, nome, telefone, cpf, dia, mes, ano);
 
 	
 
