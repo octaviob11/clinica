@@ -7,7 +7,7 @@ Até o momento foram desenvolvidas as seguintes bibliotecas:
 
 <b>paciente.h:</b> Definição da estrutura de paciente, seus getters, setters e outras funções úteis.
 
-<b>cadastro.h: </b>Funções para cadastrar pascientes, carregar um arquivo de pacientes na memória.
+<b>cadastro.h: </b>Funções para cadastrar pacientes, carregar um arquivo de pacientes na memória, etc...
 
 <b>Observações:</b>
 - Até agora o código foi testado em um MacBookAir7,2
@@ -22,6 +22,7 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 - Resultado de uname -v:
 Darwin Kernel Version 21.6.0: Mon Dec 19 20:44:01 PST 2022; root:xnu-8020.240.18~2/RELEASE_X86_64
 
+teste
 
 
 

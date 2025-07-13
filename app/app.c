@@ -20,6 +20,7 @@ int main( int argc, char** argv){
 		return 0;
 		}
 	}
+	int a =0;
 	char * nome_arquivo = argv[1];
 	char * nome = argv[2];
 	char * telefone = argv[3];
