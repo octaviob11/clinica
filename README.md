@@ -7,7 +7,7 @@ Até o momento foram desenvolvidas as seguintes bibliotecas:
 
 <b>paciente.h:</b> Definição da estrutura de paciente, seus getters, setters e outras funções úteis.
 
-<b>cadastro.h:</b>Funções para cadastrar pascientes, carregar um arquivo de pacientes na memória.
+<b>cadastro.h: </b>Funções para cadastrar pascientes, carregar um arquivo de pacientes na memória.
 
 <b>Observações:</b>
 - Até agora o código foi testado em um MacBookAir7,2
