@@ -22,6 +22,6 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 - Resultado de uname -v:
 Darwin Kernel Version 21.6.0: Mon Dec 19 20:44:01 PST 2022; root:xnu-8020.240.18~2/RELEASE_X86_64
 
-
+teste 18 de julho
 
 
