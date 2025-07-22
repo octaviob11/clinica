@@ -17,7 +17,7 @@ int main(){
 	char * nome = "Octavio Bottoni Neto";
 	char * telefone = "5511967836177";
 	char * cpf = "39248096824";
-	long int dia = 11;
+	long int dia = 10;
 	long int mes = 6;
 	long int ano = 95;
 	printf("Nome = %s, telefone = %s, cpf = %s, nascimento %ld/%ld/%ld\n", nome, telefone, cpf, dia, mes, ano);
