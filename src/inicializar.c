@@ -14,7 +14,7 @@ typedef struct parametros_configuracao_struct {
 }parametros_configuracao_t;
 bool verificar_arquivo_configuracao(char * nome_arquivo);
 
-bool criar_configuracao(){
+parametros_configuracao_t * criar_configuracao(){
 	parametros_configuracao_t * nova_config = malloc(sizeof(parametros_configuracao_t));
 	nova_config->paciente_id_atual=0;
 	time(&nova_config->ultimo_update);

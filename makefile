@@ -12,7 +12,7 @@ APP_FILES = $(wildcard $(APP_DIR)/*.c)
 
 OBJ_FILES = $(SRC_FILES:.c=.o) $(APP_FILES:.c=.o)
 
-all: $(TARGET)
+all: $(TARGET) $(APP_FILES)
 
 $(TARGET): $(OBJ_FILES)
 	$(CC) $(LDFLAGS) -o $@ $^
