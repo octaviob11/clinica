@@ -17,9 +17,9 @@ int main(){
 	char * nome = "Octavio Bottoni Neto";
 	char * telefone = "55118777722";
 	char * cpf = "333344094";
-	long int dia = 10;
-	long int mes = 6;
-	long int ano = 95;
+	long int dia = 12;
+	long int mes = 2;
+	long int ano = 99;
 	printf("Nome = %s, telefone = %s, cpf = %s, nascimento %ld/%ld/%ld\n", nome, telefone, cpf, dia, mes, ano);
 	//printf("Sizeof atring =%d", strlen(nome));
 	cadastrar_via_argumentos(nome_arquivo, nome, telefone, cpf, dia, mes, ano);
