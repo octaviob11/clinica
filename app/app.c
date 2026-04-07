@@ -15,8 +15,8 @@ int main(){
 	
 	char * nome_arquivo = "Paciente.bin";
 	char * nome = "Octavio Bottoni Neto";
-	char * telefone = "5511967836177";
-	char * cpf = "39248096824";
+	char * telefone = "55118777722";
+	char * cpf = "333344094";
 	long int dia = 10;
 	long int mes = 6;
 	long int ano = 95;
